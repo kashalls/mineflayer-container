@@ -21,7 +21,7 @@ bot.loadPlugin(pathfinder)
 bot.loadPlugin(autoEat.plugin)
 
 bot.on('spawn', () => {
-  mineflayerViewer(bot, { port: 8080 })
+  mineflayerViewer(bot, { port: 8080, prefix: process.env['WEBPREFIX'] ?? '' })
 
   bot.on('path_update', (r) => {
     const nodesPerTick = (r.visitedNodes * 50 / r.time).toFixed(2)
