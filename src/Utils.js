@@ -1,6 +1,5 @@
-
-export function parseConfig(config) {
-  const unparsedConfig = config ?? process.env.MINEFLAYER_CONFIG
+export function parseConfig(someConfig) {
+  const unparsedConfig = someConfig ?? process.env.MINEFLAYER_CONFIG
   if (unparsedConfig.constructor !== String || unparsedConfig.length === 0 ) {
     throw Error('Environmental Variable \'MINEFLAYER_CONFIG\' must be a string.')
   }
