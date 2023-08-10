@@ -1,3 +1,4 @@
+import * as meshline from 'three.meshline' // Useless, just fixing yarns ambigious packages
 import * as mineflayer from 'mineflayer'
 import * as autoEat from 'mineflayer-auto-eat'
 import g, { Movements, pathfinder } from 'mineflayer-pathfinder'

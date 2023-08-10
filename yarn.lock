@@ -856,6 +856,7 @@ __metadata:
     mongodb: ^5.7.0
     prismarine-viewer: ^1.25.0
     three: ^0.155.0
+    three.meshline: ^1.4.0
   languageName: unknown
   linkType: soft
 
@@ -1560,7 +1561,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"three.meshline@npm:^1.3.0":
+"three.meshline@npm:^1.3.0, three.meshline@npm:^1.4.0":
   version: 1.4.0
   resolution: "three.meshline@npm:1.4.0"
   checksum: 9cf09a4a5c6eb7ca9df493b5337ce21fabe0fb62875535ed7bb51c4aab0560c2153c1a503479d3d2a58288c143d782fbdc1b420ed748d8c784518efa50716d15

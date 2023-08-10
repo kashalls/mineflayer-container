@@ -34,7 +34,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mineflayer-pathfinder", "npm:2.4.4"],\
             ["mongodb", "virtual:989dd4ad0ada852d27517b61881af31c1206aebfbc5eb009837de502e74ec665f0b2a98613ffaaac40cb9ada81a82fa4aac93f5f38a24e80c6c8db164bac2c4e#npm:5.7.0"],\
             ["prismarine-viewer", "npm:1.25.0"],\
-            ["three", "npm:0.155.0"]\
+            ["three", "npm:0.155.0"],\
+            ["three.meshline", "npm:1.4.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -1096,7 +1097,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mineflayer-pathfinder", "npm:2.4.4"],\
             ["mongodb", "virtual:989dd4ad0ada852d27517b61881af31c1206aebfbc5eb009837de502e74ec665f0b2a98613ffaaac40cb9ada81a82fa4aac93f5f38a24e80c6c8db164bac2c4e#npm:5.7.0"],\
             ["prismarine-viewer", "npm:1.25.0"],\
-            ["three", "npm:0.155.0"]\
+            ["three", "npm:0.155.0"],\
+            ["three.meshline", "npm:1.4.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
