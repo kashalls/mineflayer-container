@@ -10,7 +10,7 @@ import MongoCache, { client } from './MongoCache.js'
 
 const config = parseConfig()
 
-(async () => await client.connect())
+(async () => await client.connect())()
 
 const bot = mineflayer.createBot({ ...config, profilesFolder: (cache) => new MongoCache(cache) })
 bot.loadPlugin(pathfinder)
