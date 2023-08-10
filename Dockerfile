@@ -11,6 +11,7 @@ COPY --chown=node:node .yarnrc.yml .
 COPY --chown=node:node .yarn/ .yarn/
 
 COPY --chown=node:node .pnp.cjs .
+COPY --chown=node:node .pnp.loader.mjs .
 
 # Copy over runtime
 COPY --chown=node:node src/ src/
