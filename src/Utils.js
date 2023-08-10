@@ -5,7 +5,7 @@ export function parseConfig(someConfig) {
   }
   
   const config = JSON.parse(unparsedConfig)
-  console.log(`Mineflayer Config: ${config}`)
+  console.log(`Mineflayer Config: ${JSON.stringify(config)}`)
   if (Object.keys(config).length === 0) {
     throw Error('MINEFLAYER_CONFIG is empty.')
   }
