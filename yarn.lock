@@ -855,6 +855,7 @@ __metadata:
     mineflayer-pathfinder: ^2.4.4
     mongodb: ^5.7.0
     prismarine-viewer: ^1.25.0
+    three: ^0.155.0
   languageName: unknown
   linkType: soft
 
@@ -1570,6 +1571,13 @@ __metadata:
   version: 0.128.0
   resolution: "three@npm:0.128.0"
   checksum: 94d2b0e0ab1093acbc97e7de2ba38073f0479d2285f5ec333d1f900f1bf8c6a435f5815f24678f38a9898fc1ca39595a0c865cf83b3ce9c4164bba3393108dd3
+  languageName: node
+  linkType: hard
+
+"three@npm:^0.155.0":
+  version: 0.155.0
+  resolution: "three@npm:0.155.0"
+  checksum: 55de8af716686be2159b2ff407501ce2e6418b7d16a8dc57f3dcf9f08c4a6bedf0623fa8ddb67c1ae6f679d7ca53cfa0c64bab6b0577d6c467618389d5561211
   languageName: node
   linkType: hard
 

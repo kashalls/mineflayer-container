@@ -9,6 +9,7 @@
     "mineflayer-auto-eat": "^3.3.6",
     "mineflayer-pathfinder": "^2.4.4",
     "mongodb": "^5.7.0",
-    "prismarine-viewer": "^1.25.0"
+    "prismarine-viewer": "^1.25.0",
+    "three": "^0.155.0"
   }
 }
