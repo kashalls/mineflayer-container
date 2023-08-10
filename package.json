@@ -1,8 +1,14 @@
 {
   "name": "mineflayer-container",
   "packageManager": "yarn@3.6.1",
+  "type": "module",
+  "main": "src/Client.js",
   "dependencies": {
+    "minecraft-data": "^3.41.0",
     "mineflayer": "^4.10.1",
-    "mongodb": "^5.7.0"
+    "mineflayer-auto-eat": "^3.3.6",
+    "mineflayer-pathfinder": "^2.4.4",
+    "mongodb": "^5.7.0",
+    "prismarine-viewer": "^1.25.0"
   }
 }
