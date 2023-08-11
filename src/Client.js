@@ -11,18 +11,26 @@ async function connect () {
 }
 connect()
 
-const bot = mineflayer.createBot({ ...config, profilesFolder: (cache) => new MongoCache(cache) })
-bot.loadPlugin(autoEat.plugin)
+for (const username of config.accounts) {
+  const bot = mineflayer.createBot({ 
+    ...config.options,
+    username,
+    profilesFolder: (cache) => new MongoCache(cache),
+    onMsaCode: (code) => console.log(`${username} needs to be authenticated at https://microsoft.com/link with code ${code}`)
+  })
+  bot.loadPlugin(autoEat.plugin)
 
-bot.on('spawn', () => {
-  console.log('Spawned in.')
-})
+  bot.on('spawn', () => {
+    console.log('Spawned in.')
+  })
 
-bot.on('message', (message) => {
-  console.log(message.toAnsi())
-})
+  bot.on('message', (message) => {
+    console.log(message.toAnsi())
+  })
 
-bot.on('err', (err) => {
-  console.log(err)
-  process.exit(1)
-})
+  bot.on('err', (err) => {
+    console.log(err)
+    process.exit(1)
+  })
+
+}
