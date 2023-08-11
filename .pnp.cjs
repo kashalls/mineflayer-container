@@ -31,10 +31,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["minecraft-data", "npm:3.41.0"],\
             ["mineflayer", "npm:4.10.1"],\
             ["mineflayer-auto-eat", "npm:3.3.6"],\
-            ["mineflayer-pathfinder", "npm:2.4.4"],\
-            ["mongodb", "virtual:989dd4ad0ada852d27517b61881af31c1206aebfbc5eb009837de502e74ec665f0b2a98613ffaaac40cb9ada81a82fa4aac93f5f38a24e80c6c8db164bac2c4e#npm:5.7.0"],\
-            ["three", "npm:0.155.0"],\
-            ["three.meshline", "npm:1.4.0"]\
+            ["mongodb", "virtual:989dd4ad0ada852d27517b61881af31c1206aebfbc5eb009837de502e74ec665f0b2a98613ffaaac40cb9ada81a82fa4aac93f5f38a24e80c6c8db164bac2c4e#npm:5.7.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -569,28 +566,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["minecraft-data", "npm:3.41.0"],\
             ["mineflayer", "npm:4.10.1"],\
             ["mineflayer-auto-eat", "npm:3.3.6"],\
-            ["mineflayer-pathfinder", "npm:2.4.4"],\
-            ["mongodb", "virtual:989dd4ad0ada852d27517b61881af31c1206aebfbc5eb009837de502e74ec665f0b2a98613ffaaac40cb9ada81a82fa4aac93f5f38a24e80c6c8db164bac2c4e#npm:5.7.0"],\
-            ["three", "npm:0.155.0"],\
-            ["three.meshline", "npm:1.4.0"]\
+            ["mongodb", "virtual:989dd4ad0ada852d27517b61881af31c1206aebfbc5eb009837de502e74ec665f0b2a98613ffaaac40cb9ada81a82fa4aac93f5f38a24e80c6c8db164bac2c4e#npm:5.7.0"]\
           ],\
           "linkType": "SOFT"\
-        }]\
-      ]],\
-      ["mineflayer-pathfinder", [\
-        ["npm:2.4.4", {\
-          "packageLocation": "./.yarn/cache/mineflayer-pathfinder-npm-2.4.4-0ddbef3142-a2f21151d1.zip/node_modules/mineflayer-pathfinder/",\
-          "packageDependencies": [\
-            ["mineflayer-pathfinder", "npm:2.4.4"],\
-            ["minecraft-data", "npm:3.41.0"],\
-            ["prismarine-block", "npm:1.17.0"],\
-            ["prismarine-entity", "npm:2.2.0"],\
-            ["prismarine-item", "npm:1.14.0"],\
-            ["prismarine-nbt", "npm:2.2.1"],\
-            ["prismarine-physics", "npm:1.7.0"],\
-            ["vec3", "npm:0.1.8"]\
-          ],\
-          "linkType": "HARD"\
         }]\
       ]],\
       ["mojangson", [\
@@ -1120,24 +1098,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["string_decoder", "npm:1.3.0"],\
             ["safe-buffer", "npm:5.2.1"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["three", [\
-        ["npm:0.155.0", {\
-          "packageLocation": "./.yarn/cache/three-npm-0.155.0-8a3972e006-55de8af716.zip/node_modules/three/",\
-          "packageDependencies": [\
-            ["three", "npm:0.155.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["three.meshline", [\
-        ["npm:1.4.0", {\
-          "packageLocation": "./.yarn/cache/three.meshline-npm-1.4.0-a332f3f829-9cf09a4a5c.zip/node_modules/three.meshline/",\
-          "packageDependencies": [\
-            ["three.meshline", "npm:1.4.0"]\
           ],\
           "linkType": "HARD"\
         }]\
