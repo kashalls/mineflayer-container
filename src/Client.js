@@ -2,7 +2,6 @@ import * as meshline from 'three.meshline' // Useless, just fixing yarns ambigio
 import * as mineflayer from 'mineflayer'
 import * as autoEat from 'mineflayer-auto-eat'
 import g, { Movements, pathfinder } from 'mineflayer-pathfinder'
-import { mineflayer as mineflayerViewer } from 'prismarine-viewer'
 import mcdata from 'minecraft-data'
 
 import { parseConfig } from './Utils.js'
@@ -21,7 +20,6 @@ bot.loadPlugin(pathfinder)
 bot.loadPlugin(autoEat.plugin)
 
 bot.on('spawn', () => {
-  mineflayerViewer(bot, { port: 8080, prefix: process.env['WEBPREFIX'] ?? '' })
 
   bot.on('path_update', (r) => {
     const nodesPerTick = (r.visitedNodes * 50 / r.time).toFixed(2)
