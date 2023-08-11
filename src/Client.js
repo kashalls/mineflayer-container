@@ -16,7 +16,7 @@ for (const username of config.accounts) {
     ...config.options,
     username,
     profilesFolder: (cache) => new MongoCache(cache),
-    onMsaCode: (code) => console.log(`${username} needs to be authenticated at https://microsoft.com/link with code ${code}`)
+    onMsaCode: (code) => console.log(`${username} needs to be authenticated at https://microsoft.com/link with code ${code.user_code}`)
   })
   bot.loadPlugin(autoEat.plugin)
 
