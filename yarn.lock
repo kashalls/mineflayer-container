@@ -356,9 +356,9 @@ __metadata:
   linkType: hard
 
 "minecraft-data@npm:^3.0.0, minecraft-data@npm:^3.37.0, minecraft-data@npm:^3.38.0, minecraft-data@npm:^3.41.0":
-  version: 3.41.0
-  resolution: "minecraft-data@npm:3.41.0"
-  checksum: 528c6f0391eaf0a7f50684081f535061f4ab9d5f10d7efe66ef2190791d27e5cb2481753988ad2eac3298e1a6e32a9976645d5a944449b4172b156ace7d75d47
+  version: 3.42.1
+  resolution: "minecraft-data@npm:3.42.1"
+  checksum: 791f7dde0f24219ca3ffb9a1a6b68a20783d66d670dcc2590676d12f50e5535c61599ed44df2c3af66c2f2c0532216c8dfc7617a1f8ca4478f07e5602deedd89
   languageName: node
   linkType: hard
 
