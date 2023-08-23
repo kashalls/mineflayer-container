@@ -20,16 +20,27 @@ for (const username of config.accounts) {
   })
   bot.loadPlugin(autoEat.plugin)
 
+  bot.on('kicked', (reason) => {
+    const msg = JSON.parse(reason);
+		let message = msg.text;
+		if (msg.extra) {
+			msg.extra.forEach((obj) => {
+				message += obj.text.replace(/[\n\t\r]/g, '');
+			});
+		}
+		console.log(`[${bot.username}] I got kicked from the server.\nReason: ${message}`);
+  })
+
   bot.on('spawn', () => {
-    console.log('Spawned in.')
+    console.log(`[${bot.username}] Spawned in.`)
   })
 
   bot.on('message', (message) => {
-    console.log(message.toAnsi())
+    console.log(`[${bot.username}] ${message.toAnsi()}`)
   })
 
   bot.on('err', (err) => {
-    console.log(err)
+    console.log(`[${bot.username}] ${JSON.stringify(err)}`)
     process.exit(1)
   })
 
