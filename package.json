@@ -1,6 +1,6 @@
 {
   "name": "mineflayer-container",
-  "packageManager": "yarn@3.6.1",
+  "packageManager": "yarn@3.6.3",
   "type": "module",
   "main": "src/Client.js",
   "dependencies": {
