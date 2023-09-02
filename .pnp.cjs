@@ -29,7 +29,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["minecraft-data", "npm:3.42.1"],\
-            ["mineflayer", "npm:4.12.0"],\
+            ["mineflayer", "npm:4.14.0"],\
             ["mineflayer-auto-eat", "npm:3.3.6"],\
             ["mongodb", "virtual:989dd4ad0ada852d27517b61881af31c1206aebfbc5eb009837de502e74ec665f0b2a98613ffaaac40cb9ada81a82fa4aac93f5f38a24e80c6c8db164bac2c4e#npm:5.8.1"]\
           ],\
@@ -495,6 +495,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["minecraft-data", "npm:3.42.1"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:3.44.0", {\
+          "packageLocation": "./.yarn/cache/minecraft-data-npm-3.44.0-5e6e65085c-d356b59b51.zip/node_modules/minecraft-data/",\
+          "packageDependencies": [\
+            ["minecraft-data", "npm:3.44.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["minecraft-folder-path", [\
@@ -534,21 +541,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["mineflayer", [\
-        ["npm:4.12.0", {\
-          "packageLocation": "./.yarn/cache/mineflayer-npm-4.12.0-89fb817cdd-30a5b856c1.zip/node_modules/mineflayer/",\
+        ["npm:4.14.0", {\
+          "packageLocation": "./.yarn/cache/mineflayer-npm-4.14.0-2b88dd5fbe-8fc8b36b33.zip/node_modules/mineflayer/",\
           "packageDependencies": [\
-            ["mineflayer", "npm:4.12.0"],\
-            ["minecraft-data", "npm:3.42.1"],\
+            ["mineflayer", "npm:4.14.0"],\
+            ["minecraft-data", "npm:3.44.0"],\
             ["minecraft-protocol", "npm:1.44.0"],\
-            ["prismarine-biome", "virtual:990fb3456dadeabe79f0807efe52265bbe39db5b52da3deaaae9846ec473685a4b22da62baba5c979bde96fa87ca6f4622ea7ce95562b4e8f70f900b6ef408e8#npm:1.3.0"],\
+            ["prismarine-biome", "virtual:2b88dd5fbe47f255b184c270a7e0e73809253001d2b412100e83344ec9ce652b2d02ac10b378c956c9d91cf845871f84061de6b6d8f2356cd7ec902ea70b6c9a#npm:1.3.0"],\
             ["prismarine-block", "npm:1.17.0"],\
             ["prismarine-chat", "npm:1.8.0"],\
             ["prismarine-chunk", "npm:1.34.0"],\
-            ["prismarine-entity", "npm:2.2.0"],\
+            ["prismarine-entity", "npm:2.3.1"],\
             ["prismarine-item", "npm:1.14.0"],\
             ["prismarine-nbt", "npm:2.2.1"],\
-            ["prismarine-physics", "npm:1.7.0"],\
-            ["prismarine-recipe", "virtual:89fb817cddae5e66f354b8f5bc9cef7bac394ec83bd3efc05980deefc14d1c526f5322e66d6cc86773ece6f68097dd0567c5133b63d7acff55d53bf256a6381a#npm:1.3.1"],\
+            ["prismarine-physics", "npm:1.8.0"],\
+            ["prismarine-recipe", "virtual:2b88dd5fbe47f255b184c270a7e0e73809253001d2b412100e83344ec9ce652b2d02ac10b378c956c9d91cf845871f84061de6b6d8f2356cd7ec902ea70b6c9a#npm:1.3.1"],\
             ["prismarine-registry", "npm:1.7.0"],\
             ["prismarine-windows", "npm:2.8.0"],\
             ["prismarine-world", "npm:3.6.2"],\
@@ -574,7 +581,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["mineflayer-container", "workspace:."],\
             ["minecraft-data", "npm:3.42.1"],\
-            ["mineflayer", "npm:4.12.0"],\
+            ["mineflayer", "npm:4.14.0"],\
             ["mineflayer-auto-eat", "npm:3.3.6"],\
             ["mongodb", "virtual:989dd4ad0ada852d27517b61881af31c1206aebfbc5eb009837de502e74ec665f0b2a98613ffaaac40cb9ada81a82fa4aac93f5f38a24e80c6c8db164bac2c4e#npm:5.8.1"]\
           ],\
@@ -739,6 +746,23 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
+        ["virtual:2b88dd5fbe47f255b184c270a7e0e73809253001d2b412100e83344ec9ce652b2d02ac10b378c956c9d91cf845871f84061de6b6d8f2356cd7ec902ea70b6c9a#npm:1.3.0", {\
+          "packageLocation": "./.yarn/__virtual__/prismarine-biome-virtual-8aeeb72b5b/0/cache/prismarine-biome-npm-1.3.0-f387c22cff-e8d7fa9144.zip/node_modules/prismarine-biome/",\
+          "packageDependencies": [\
+            ["prismarine-biome", "virtual:2b88dd5fbe47f255b184c270a7e0e73809253001d2b412100e83344ec9ce652b2d02ac10b378c956c9d91cf845871f84061de6b6d8f2356cd7ec902ea70b6c9a#npm:1.3.0"],\
+            ["@types/minecraft-data", null],\
+            ["@types/prismarine-registry", null],\
+            ["minecraft-data", "npm:3.44.0"],\
+            ["prismarine-registry", "npm:1.7.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/minecraft-data",\
+            "@types/prismarine-registry",\
+            "minecraft-data",\
+            "prismarine-registry"\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["virtual:40f61b1c58047e07105a4f5a0a708101409e817832c7b8d18b8f3c9c23afb229dc93b172382a0d5d1313ef5fda97720f2c37870cbe7a335cc25ef53bc2460095#npm:1.3.0", {\
           "packageLocation": "./.yarn/__virtual__/prismarine-biome-virtual-3b824b5192/0/cache/prismarine-biome-npm-1.3.0-f387c22cff-e8d7fa9144.zip/node_modules/prismarine-biome/",\
           "packageDependencies": [\
@@ -820,11 +844,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["prismarine-entity", [\
-        ["npm:2.2.0", {\
-          "packageLocation": "./.yarn/cache/prismarine-entity-npm-2.2.0-588431c2c0-9da5fc5b5f.zip/node_modules/prismarine-entity/",\
+        ["npm:2.3.1", {\
+          "packageLocation": "./.yarn/cache/prismarine-entity-npm-2.3.1-3bc0995562-589e125c97.zip/node_modules/prismarine-entity/",\
           "packageDependencies": [\
-            ["prismarine-entity", "npm:2.2.0"],\
-            ["minecraft-data", "npm:3.42.1"],\
+            ["prismarine-entity", "npm:2.3.1"],\
             ["prismarine-chat", "npm:1.8.0"],\
             ["prismarine-item", "npm:1.14.0"],\
             ["prismarine-registry", "npm:1.7.0"],\
@@ -855,10 +878,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["prismarine-physics", [\
-        ["npm:1.7.0", {\
-          "packageLocation": "./.yarn/cache/prismarine-physics-npm-1.7.0-40221f25f4-77f2328b24.zip/node_modules/prismarine-physics/",\
+        ["npm:1.8.0", {\
+          "packageLocation": "./.yarn/cache/prismarine-physics-npm-1.8.0-537051234e-3575e9e692.zip/node_modules/prismarine-physics/",\
           "packageDependencies": [\
-            ["prismarine-physics", "npm:1.7.0"],\
+            ["prismarine-physics", "npm:1.8.0"],\
             ["minecraft-data", "npm:3.42.1"],\
             ["prismarine-nbt", "npm:2.2.1"],\
             ["vec3", "npm:0.1.8"]\
@@ -885,10 +908,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:89fb817cddae5e66f354b8f5bc9cef7bac394ec83bd3efc05980deefc14d1c526f5322e66d6cc86773ece6f68097dd0567c5133b63d7acff55d53bf256a6381a#npm:1.3.1", {\
-          "packageLocation": "./.yarn/__virtual__/prismarine-recipe-virtual-a42ba214ac/0/cache/prismarine-recipe-npm-1.3.1-58e45701c9-d259be882c.zip/node_modules/prismarine-recipe/",\
+        ["virtual:2b88dd5fbe47f255b184c270a7e0e73809253001d2b412100e83344ec9ce652b2d02ac10b378c956c9d91cf845871f84061de6b6d8f2356cd7ec902ea70b6c9a#npm:1.3.1", {\
+          "packageLocation": "./.yarn/__virtual__/prismarine-recipe-virtual-fe900278d8/0/cache/prismarine-recipe-npm-1.3.1-58e45701c9-d259be882c.zip/node_modules/prismarine-recipe/",\
           "packageDependencies": [\
-            ["prismarine-recipe", "virtual:89fb817cddae5e66f354b8f5bc9cef7bac394ec83bd3efc05980deefc14d1c526f5322e66d6cc86773ece6f68097dd0567c5133b63d7acff55d53bf256a6381a#npm:1.3.1"],\
+            ["prismarine-recipe", "virtual:2b88dd5fbe47f255b184c270a7e0e73809253001d2b412100e83344ec9ce652b2d02ac10b378c956c9d91cf845871f84061de6b6d8f2356cd7ec902ea70b6c9a#npm:1.3.1"],\
             ["@types/prismarine-registry", null],\
             ["prismarine-registry", "npm:1.7.0"]\
           ],\
