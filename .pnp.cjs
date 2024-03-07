@@ -362,10 +362,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["jose", [\
-        ["npm:4.14.4", {\
-          "packageLocation": "./.yarn/cache/jose-npm-4.14.4-8255fd76fa-2d820a91a8.zip/node_modules/jose/",\
+        ["npm:4.15.5", {\
+          "packageLocation": "./.yarn/cache/jose-npm-4.15.5-15e487a3a1-7dde76447c.zip/node_modules/jose/",\
           "packageDependencies": [\
-            ["jose", "npm:4.14.4"]\
+            ["jose", "npm:4.15.5"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -728,7 +728,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@azure/msal-node", "npm:1.18.1"],\
             ["@xboxreplay/xboxlive-auth", "npm:3.3.3"],\
             ["debug", "virtual:e03b978163efd58911c17fd351e34aacae4e4c6a093663981b6916ec945b00b5e8342abae1965d91dc58020b658b5f1123d3147f8f6892fbce489d2f7ee1c14b#npm:4.3.4"],\
-            ["jose", "npm:4.14.4"],\
+            ["jose", "npm:4.15.5"],\
             ["node-fetch", "virtual:e03b978163efd58911c17fd351e34aacae4e4c6a093663981b6916ec945b00b5e8342abae1965d91dc58020b658b5f1123d3147f8f6892fbce489d2f7ee1c14b#npm:2.6.12"],\
             ["smart-buffer", "npm:4.2.0"],\
             ["uuid-1345", "npm:1.0.2"]\
