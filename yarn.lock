@@ -371,6 +371,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"minecraft-data@npm:^3.55.0, minecraft-data@npm:^3.56.0":
+  version: 3.65.0
+  resolution: "minecraft-data@npm:3.65.0"
+  checksum: 56f44fefccbb0492125b9d10844092580813b50764b67a5358a59f45b990e74c1815f7e01407beb39212ea793d1920a625133ee8ada9247c5e7ce47f9215ede8
+  languageName: node
+  linkType: hard
+
 "minecraft-folder-path@npm:^1.2.0":
   version: 1.2.0
   resolution: "minecraft-folder-path@npm:1.2.0"
@@ -404,10 +411,39 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mineflayer-auto-eat@npm:^3.3.6":
-  version: 3.3.6
-  resolution: "mineflayer-auto-eat@npm:3.3.6"
-  checksum: 72a3a8abd129b568fc1eeeac3ba0b55de5c2d0ec3a0eb44ad9b40bd5fdc8c73281e6163ecb868e4710c63015058067d86f91164e4842bb0374b0cc0e193da38b
+"minecraft-protocol@npm:^1.47.0":
+  version: 1.47.0
+  resolution: "minecraft-protocol@npm:1.47.0"
+  dependencies:
+    "@types/readable-stream": ^4.0.0
+    aes-js: ^3.1.2
+    buffer-equal: ^1.0.0
+    debug: ^4.3.2
+    endian-toggle: ^0.0.0
+    lodash.get: ^4.1.2
+    lodash.merge: ^4.3.0
+    minecraft-data: ^3.55.0
+    minecraft-folder-path: ^1.2.0
+    node-fetch: ^2.6.1
+    node-rsa: ^0.4.2
+    prismarine-auth: ^2.2.0
+    prismarine-chat: ^1.10.0
+    prismarine-nbt: ^2.5.0
+    prismarine-realms: ^1.2.0
+    protodef: ^1.8.0
+    readable-stream: ^4.1.0
+    uuid-1345: ^1.0.1
+    yggdrasil: ^1.4.0
+  checksum: a7a002874b41e19c851294350b92514d42407df01f2684567e7d63e8cce9ff64109525cbcaf99f804d64914822e124c7c50ce47893f370022e13394343fcb763
+  languageName: node
+  linkType: hard
+
+"mineflayer-auto-eat@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "mineflayer-auto-eat@npm:4.0.0"
+  dependencies:
+    mineflayer: ^4.20.1
+  checksum: 7c1f13aa14e9a19dc8007d762a684b36b23744332497aa681878c45b3e1fe4e79453f0d1eed1836cb3e22c43a79d7577f58d32c4c9c64b9010f06a99ee2e21b2
   languageName: node
   linkType: hard
 
@@ -417,7 +453,7 @@ __metadata:
   dependencies:
     minecraft-data: ^3.41.0
     mineflayer: ^4.10.1
-    mineflayer-auto-eat: ^3.3.6
+    mineflayer-auto-eat: ^4.0.0
     mongodb: ^6.0.0
   languageName: unknown
   linkType: soft
@@ -444,6 +480,31 @@ __metadata:
     typed-emitter: ^1.0.0
     vec3: ^0.1.7
   checksum: 8fc8b36b332fb13e672e3479b1c402c3dd9a57cc8660f81d5113677210c53e3a60d83a128f8fc0a56dd007c6742eed8a7cffad140b32db456bf751a65fe8d277
+  languageName: node
+  linkType: hard
+
+"mineflayer@npm:^4.20.1":
+  version: 4.20.1
+  resolution: "mineflayer@npm:4.20.1"
+  dependencies:
+    minecraft-data: ^3.56.0
+    minecraft-protocol: ^1.47.0
+    prismarine-biome: ^1.1.1
+    prismarine-block: ^1.17.0
+    prismarine-chat: ^1.7.1
+    prismarine-chunk: ^1.34.0
+    prismarine-entity: ^2.3.0
+    prismarine-item: ^1.14.0
+    prismarine-nbt: ^2.0.0
+    prismarine-physics: ^1.8.0
+    prismarine-recipe: ^1.3.0
+    prismarine-registry: ^1.5.0
+    prismarine-windows: ^2.9.0
+    prismarine-world: ^3.6.0
+    protodef: ^1.14.0
+    typed-emitter: ^1.0.0
+    vec3: ^0.1.7
+  checksum: ede66bbc98878a703886eb1984545a5208e40b1f8780dc9811e0fd60efc2cf077a18fc7510aaed80a418d9278ec1be8a6cd6a25586f01b0eb15faa04a7d0ef13
   languageName: node
   linkType: hard
 
@@ -600,6 +661,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prismarine-chat@npm:^1.10.0":
+  version: 1.10.1
+  resolution: "prismarine-chat@npm:1.10.1"
+  dependencies:
+    mojangson: ^2.0.1
+    prismarine-nbt: ^2.0.0
+    prismarine-registry: ^1.4.0
+  checksum: 985e2c77cb589689f84334c2684ab74634c2d62796658ea68b344a3017aad063690762a35b90b0a70ad40afedf4d9ecf9807530e30b6449efd104b5ad0210521
+  languageName: node
+  linkType: hard
+
 "prismarine-chat@npm:^1.4.1, prismarine-chat@npm:^1.5.0, prismarine-chat@npm:^1.7.1":
   version: 1.8.0
   resolution: "prismarine-chat@npm:1.8.0"
@@ -659,6 +731,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prismarine-nbt@npm:^2.5.0":
+  version: 2.5.0
+  resolution: "prismarine-nbt@npm:2.5.0"
+  dependencies:
+    protodef: ^1.9.0
+  checksum: 0e23f1d92f7a2bcc9c0cbff5175311f735cd173a0dcc182aa9e9712076b9a0e1df0b9ba3c5be8b933ff52d500e346417bb75f3d658d264de4bad1cbd0ba84662
+  languageName: node
+  linkType: hard
+
 "prismarine-physics@npm:^1.8.0":
   version: 1.8.0
   resolution: "prismarine-physics@npm:1.8.0"
@@ -707,6 +788,17 @@ __metadata:
     prismarine-registry: ^1.7.0
     typed-emitter: ^2.1.0
   checksum: c625ada8d299fea43f5f61c4355ad87f5bdc053841dfe71148d799c145c08ac68f15eed375600e0c8ca17f7bdb3210fc0687652088cf26d274399c2ee458ae12
+  languageName: node
+  linkType: hard
+
+"prismarine-windows@npm:^2.9.0":
+  version: 2.9.0
+  resolution: "prismarine-windows@npm:2.9.0"
+  dependencies:
+    prismarine-item: ^1.12.2
+    prismarine-registry: ^1.7.0
+    typed-emitter: ^2.1.0
+  checksum: b73b78b16f62952857b37b9a05d3f0ee782ef99d9fc157f96e81afe490e2f0d3005c7ed5c2720260aee57c68f5ebd0ea236750aca0bc19016ae126d0188a1401
   languageName: node
   linkType: hard
 
