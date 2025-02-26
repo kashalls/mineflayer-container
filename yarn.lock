@@ -32,6 +32,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nxg-org/mineflayer-util-plugin@npm:^1.8.0":
+  version: 1.8.3
+  resolution: "@nxg-org/mineflayer-util-plugin@npm:1.8.3"
+  checksum: 161dea644219e515866afcd1b1d8532e0ab67904203b8d597530bfcc23574c8e59bea5a8f21b57906e505edcbb1d882cd449ee7fa4b19dc25ac3edd8d1b36957
+  languageName: node
+  linkType: hard
+
 "@types/node-rsa@npm:^1.1.4":
   version: 1.1.4
   resolution: "@types/node-rsa@npm:1.1.4"
@@ -408,10 +415,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mineflayer-auto-eat@npm:^3.3.6":
-  version: 3.3.6
-  resolution: "mineflayer-auto-eat@npm:3.3.6"
-  checksum: 72a3a8abd129b568fc1eeeac3ba0b55de5c2d0ec3a0eb44ad9b40bd5fdc8c73281e6163ecb868e4710c63015058067d86f91164e4842bb0374b0cc0e193da38b
+"mineflayer-auto-eat@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "mineflayer-auto-eat@npm:5.0.0"
+  dependencies:
+    "@nxg-org/mineflayer-util-plugin": ^1.8.0
+    mineflayer: ^4.20.1
+    strict-event-emitter-types: ^2.0.0
+  checksum: 320c08b624f2dd33b12a39451f585c90eb59f51741e4c5a623098c34c721491f81b206b0b92831b0de79adcc5c71b3d1e32f4abe1f494638cff87e6ed13c3970
   languageName: node
   linkType: hard
 
@@ -421,12 +432,12 @@ __metadata:
   dependencies:
     minecraft-data: ^3.41.0
     mineflayer: ^4.10.1
-    mineflayer-auto-eat: ^3.3.6
+    mineflayer-auto-eat: ^5.0.0
     mongodb: ^6.0.0
   languageName: unknown
   linkType: soft
 
-"mineflayer@npm:^4.10.1":
+"mineflayer@npm:^4.10.1, mineflayer@npm:^4.20.1":
   version: 4.26.0
   resolution: "mineflayer@npm:4.26.0"
   dependencies:
@@ -935,6 +946,13 @@ __metadata:
   dependencies:
     memory-pager: ^1.0.2
   checksum: 174da88dbbcc783d5dbd26921931cc83830280b8055fb05333786ebe6fc015b9601b24972b3d55920dd2d9f5fb120576fbfa2469b08e5222c9cadf3f05210aab
+  languageName: node
+  linkType: hard
+
+"strict-event-emitter-types@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "strict-event-emitter-types@npm:2.0.0"
+  checksum: 91ef62364cad9ece9ab9984e806b1c6d947d0617437a25605fff0cbfae59ac6a8d641257a168c1d5f2909809a467c714f027fdccb70b6155d68eac0dc1535299
   languageName: node
   linkType: hard
 
