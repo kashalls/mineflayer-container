@@ -31,7 +31,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["minecraft-data", "npm:3.84.1"],\
             ["mineflayer", "npm:4.26.0"],\
             ["mineflayer-auto-eat", "npm:3.3.6"],\
-            ["mongodb", "virtual:989dd4ad0ada852d27517b61881af31c1206aebfbc5eb009837de502e74ec665f0b2a98613ffaaac40cb9ada81a82fa4aac93f5f38a24e80c6c8db164bac2c4e#npm:6.1.0"]\
+            ["mongodb", "virtual:989dd4ad0ada852d27517b61881af31c1206aebfbc5eb009837de502e74ec665f0b2a98613ffaaac40cb9ada81a82fa4aac93f5f38a24e80c6c8db164bac2c4e#npm:6.13.1"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -58,10 +58,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@mongodb-js/saslprep", [\
-        ["npm:1.1.0", {\
-          "packageLocation": "./.yarn/cache/@mongodb-js-saslprep-npm-1.1.0-3906c025b8-1479a43e21.zip/node_modules/@mongodb-js/saslprep/",\
+        ["npm:1.2.0", {\
+          "packageLocation": "./.yarn/cache/@mongodb-js-saslprep-npm-1.2.0-d17f8e2605-a2df7bf5fd.zip/node_modules/@mongodb-js/saslprep/",\
           "packageDependencies": [\
-            ["@mongodb-js/saslprep", "npm:1.1.0"],\
+            ["@mongodb-js/saslprep", "npm:1.2.0"],\
             ["sparse-bitfield", "npm:3.0.3"]\
           ],\
           "linkType": "HARD"\
@@ -107,11 +107,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/whatwg-url", [\
-        ["npm:8.2.2", {\
-          "packageLocation": "./.yarn/cache/@types-whatwg-url-npm-8.2.2-54c5c24e6c-5dc5afe078.zip/node_modules/@types/whatwg-url/",\
+        ["npm:11.0.5", {\
+          "packageLocation": "./.yarn/cache/@types-whatwg-url-npm-11.0.5-cc968131ca-23a0c45aff.zip/node_modules/@types/whatwg-url/",\
           "packageDependencies": [\
-            ["@types/whatwg-url", "npm:8.2.2"],\
-            ["@types/node", "npm:20.4.9"],\
+            ["@types/whatwg-url", "npm:11.0.5"],\
             ["@types/webidl-conversions", "npm:7.0.0"]\
           ],\
           "linkType": "HARD"\
@@ -198,10 +197,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["bson", [\
-        ["npm:6.1.0", {\
-          "packageLocation": "./.yarn/cache/bson-npm-6.1.0-9e44c0e303-8250c8158c.zip/node_modules/bson/",\
+        ["npm:6.10.3", {\
+          "packageLocation": "./.yarn/cache/bson-npm-6.10.3-f15e20e8f4-156807dc7a.zip/node_modules/bson/",\
           "packageDependencies": [\
-            ["bson", "npm:6.1.0"]\
+            ["bson", "npm:6.10.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -579,7 +578,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["minecraft-data", "npm:3.84.1"],\
             ["mineflayer", "npm:4.26.0"],\
             ["mineflayer-auto-eat", "npm:3.3.6"],\
-            ["mongodb", "virtual:989dd4ad0ada852d27517b61881af31c1206aebfbc5eb009837de502e74ec665f0b2a98613ffaaac40cb9ada81a82fa4aac93f5f38a24e80c6c8db164bac2c4e#npm:6.1.0"]\
+            ["mongodb", "virtual:989dd4ad0ada852d27517b61881af31c1206aebfbc5eb009837de502e74ec665f0b2a98613ffaaac40cb9ada81a82fa4aac93f5f38a24e80c6c8db164bac2c4e#npm:6.13.1"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -595,19 +594,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["mongodb", [\
-        ["npm:6.1.0", {\
-          "packageLocation": "./.yarn/cache/mongodb-npm-6.1.0-74114fa4aa-ed60c14f0a.zip/node_modules/mongodb/",\
+        ["npm:6.13.1", {\
+          "packageLocation": "./.yarn/cache/mongodb-npm-6.13.1-07f66498a1-d2506139ca.zip/node_modules/mongodb/",\
           "packageDependencies": [\
-            ["mongodb", "npm:6.1.0"]\
+            ["mongodb", "npm:6.13.1"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:989dd4ad0ada852d27517b61881af31c1206aebfbc5eb009837de502e74ec665f0b2a98613ffaaac40cb9ada81a82fa4aac93f5f38a24e80c6c8db164bac2c4e#npm:6.1.0", {\
-          "packageLocation": "./.yarn/__virtual__/mongodb-virtual-4d2a680df6/0/cache/mongodb-npm-6.1.0-74114fa4aa-ed60c14f0a.zip/node_modules/mongodb/",\
+        ["virtual:989dd4ad0ada852d27517b61881af31c1206aebfbc5eb009837de502e74ec665f0b2a98613ffaaac40cb9ada81a82fa4aac93f5f38a24e80c6c8db164bac2c4e#npm:6.13.1", {\
+          "packageLocation": "./.yarn/__virtual__/mongodb-virtual-2b2cb1726f/0/cache/mongodb-npm-6.13.1-07f66498a1-d2506139ca.zip/node_modules/mongodb/",\
           "packageDependencies": [\
-            ["mongodb", "virtual:989dd4ad0ada852d27517b61881af31c1206aebfbc5eb009837de502e74ec665f0b2a98613ffaaac40cb9ada81a82fa4aac93f5f38a24e80c6c8db164bac2c4e#npm:6.1.0"],\
+            ["mongodb", "virtual:989dd4ad0ada852d27517b61881af31c1206aebfbc5eb009837de502e74ec665f0b2a98613ffaaac40cb9ada81a82fa4aac93f5f38a24e80c6c8db164bac2c4e#npm:6.13.1"],\
             ["@aws-sdk/credential-providers", null],\
-            ["@mongodb-js/saslprep", "npm:1.1.0"],\
+            ["@mongodb-js/saslprep", "npm:1.2.0"],\
             ["@mongodb-js/zstd", null],\
             ["@types/aws-sdk__credential-providers", null],\
             ["@types/gcp-metadata", null],\
@@ -616,11 +615,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/mongodb-js__zstd", null],\
             ["@types/snappy", null],\
             ["@types/socks", null],\
-            ["bson", "npm:6.1.0"],\
+            ["bson", "npm:6.10.3"],\
             ["gcp-metadata", null],\
             ["kerberos", null],\
             ["mongodb-client-encryption", null],\
-            ["mongodb-connection-string-url", "npm:2.6.0"],\
+            ["mongodb-connection-string-url", "npm:3.0.2"],\
             ["snappy", null],\
             ["socks", null]\
           ],\
@@ -644,12 +643,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["mongodb-connection-string-url", [\
-        ["npm:2.6.0", {\
-          "packageLocation": "./.yarn/cache/mongodb-connection-string-url-npm-2.6.0-af011ba17f-1d662f0ecf.zip/node_modules/mongodb-connection-string-url/",\
+        ["npm:3.0.2", {\
+          "packageLocation": "./.yarn/cache/mongodb-connection-string-url-npm-3.0.2-030549db4b-382319aa41.zip/node_modules/mongodb-connection-string-url/",\
           "packageDependencies": [\
-            ["mongodb-connection-string-url", "npm:2.6.0"],\
-            ["@types/whatwg-url", "npm:8.2.2"],\
-            ["whatwg-url", "npm:11.0.0"]\
+            ["mongodb-connection-string-url", "npm:3.0.2"],\
+            ["@types/whatwg-url", "npm:11.0.5"],\
+            ["whatwg-url", "npm:14.1.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1058,6 +1057,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["punycode", "npm:2.3.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:2.3.1", {\
+          "packageLocation": "./.yarn/cache/punycode-npm-2.3.1-97543c420d-bb0a0ceedc.zip/node_modules/punycode/",\
+          "packageDependencies": [\
+            ["punycode", "npm:2.3.1"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["railroad-diagrams", [\
@@ -1198,11 +1204,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:3.0.0", {\
-          "packageLocation": "./.yarn/cache/tr46-npm-3.0.0-e1ae1ea7c9-44c3cc6767.zip/node_modules/tr46/",\
+        ["npm:5.0.0", {\
+          "packageLocation": "./.yarn/cache/tr46-npm-5.0.0-d15754040d-8d8b021f8e.zip/node_modules/tr46/",\
           "packageDependencies": [\
-            ["tr46", "npm:3.0.0"],\
-            ["punycode", "npm:2.3.0"]\
+            ["tr46", "npm:5.0.0"],\
+            ["punycode", "npm:2.3.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1306,11 +1312,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["whatwg-url", [\
-        ["npm:11.0.0", {\
-          "packageLocation": "./.yarn/cache/whatwg-url-npm-11.0.0-073529d93a-ed4826aaa5.zip/node_modules/whatwg-url/",\
+        ["npm:14.1.1", {\
+          "packageLocation": "./.yarn/cache/whatwg-url-npm-14.1.1-de00a14a31-d44667005e.zip/node_modules/whatwg-url/",\
           "packageDependencies": [\
-            ["whatwg-url", "npm:11.0.0"],\
-            ["tr46", "npm:3.0.0"],\
+            ["whatwg-url", "npm:14.1.1"],\
+            ["tr46", "npm:5.0.0"],\
             ["webidl-conversions", "npm:7.0.0"]\
           ],\
           "linkType": "HARD"\
