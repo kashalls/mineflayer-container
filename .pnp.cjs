@@ -30,7 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["minecraft-data", "npm:3.84.1"],\
             ["mineflayer", "npm:4.26.0"],\
-            ["mineflayer-auto-eat", "npm:3.3.6"],\
+            ["mineflayer-auto-eat", "npm:5.0.0"],\
             ["mongodb", "virtual:989dd4ad0ada852d27517b61881af31c1206aebfbc5eb009837de502e74ec665f0b2a98613ffaaac40cb9ada81a82fa4aac93f5f38a24e80c6c8db164bac2c4e#npm:6.1.0"]\
           ],\
           "linkType": "SOFT"\
@@ -63,6 +63,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@mongodb-js/saslprep", "npm:1.1.0"],\
             ["sparse-bitfield", "npm:3.0.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@nxg-org/mineflayer-util-plugin", [\
+        ["npm:1.8.3", {\
+          "packageLocation": "./.yarn/cache/@nxg-org-mineflayer-util-plugin-npm-1.8.3-6fb20b6ea0-161dea6442.zip/node_modules/@nxg-org/mineflayer-util-plugin/",\
+          "packageDependencies": [\
+            ["@nxg-org/mineflayer-util-plugin", "npm:1.8.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -563,10 +572,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["mineflayer-auto-eat", [\
-        ["npm:3.3.6", {\
-          "packageLocation": "./.yarn/cache/mineflayer-auto-eat-npm-3.3.6-6b7c9a5428-72a3a8abd1.zip/node_modules/mineflayer-auto-eat/",\
+        ["npm:5.0.0", {\
+          "packageLocation": "./.yarn/cache/mineflayer-auto-eat-npm-5.0.0-f0103fdd9f-320c08b624.zip/node_modules/mineflayer-auto-eat/",\
           "packageDependencies": [\
-            ["mineflayer-auto-eat", "npm:3.3.6"]\
+            ["mineflayer-auto-eat", "npm:5.0.0"],\
+            ["@nxg-org/mineflayer-util-plugin", "npm:1.8.3"],\
+            ["mineflayer", "npm:4.26.0"],\
+            ["strict-event-emitter-types", "npm:2.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -578,7 +590,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mineflayer-container", "workspace:."],\
             ["minecraft-data", "npm:3.84.1"],\
             ["mineflayer", "npm:4.26.0"],\
-            ["mineflayer-auto-eat", "npm:3.3.6"],\
+            ["mineflayer-auto-eat", "npm:5.0.0"],\
             ["mongodb", "virtual:989dd4ad0ada852d27517b61881af31c1206aebfbc5eb009837de502e74ec665f0b2a98613ffaaac40cb9ada81a82fa4aac93f5f38a24e80c6c8db164bac2c4e#npm:6.1.0"]\
           ],\
           "linkType": "SOFT"\
@@ -1176,6 +1188,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["sparse-bitfield", "npm:3.0.3"],\
             ["memory-pager", "npm:1.5.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["strict-event-emitter-types", [\
+        ["npm:2.0.0", {\
+          "packageLocation": "./.yarn/cache/strict-event-emitter-types-npm-2.0.0-f24fda1f61-91ef62364c.zip/node_modules/strict-event-emitter-types/",\
+          "packageDependencies": [\
+            ["strict-event-emitter-types", "npm:2.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
